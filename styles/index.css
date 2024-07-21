@@ -97,5 +97,10 @@ a:hover {
     text-shadow: 1px 1px 2px black;
     border: none;
     font-family: "Roboto-Bold";
+    cursor: pointer;
+}
+
+.signUpBtn:hover {
+    background-color: #2556a3;
 }
 
