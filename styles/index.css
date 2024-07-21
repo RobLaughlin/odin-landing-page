@@ -223,3 +223,14 @@ a:hover {
 .signUpBtn2:hover {
     background-color: #5693f6;
 }
+
+#Copyright {
+    height: 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
