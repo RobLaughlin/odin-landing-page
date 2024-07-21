@@ -1,2 +1,2 @@
-# odin-landing-page
-"Implement a landing page" assignment from The Odin Project.
+# Odin Landing Page
+Assignment to implement a landing page from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page).
