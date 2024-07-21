@@ -11,6 +11,7 @@
 
 * {
     font-family: 'Roboto', 'Times New Roman', Times, serif;
+    cursor: default;
 }
 
 body {
@@ -48,6 +49,7 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb;
+    cursor: pointer;
 }
 
 a:visited {
@@ -58,11 +60,14 @@ a:hover {
     color: lightblue;
 }
 
+.landingSection {
+    height: 400px;
+}
+
 #MainTitleContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 400px;
     background-color: #1f2937;
 }
 
