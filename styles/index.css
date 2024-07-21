@@ -21,6 +21,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 #MainHeader {
@@ -170,4 +171,55 @@ a:hover {
     text-align: right;
     font-family: 'Roboto-Bold', 'Times New Roman', Times, serif;
     font-size: 24px;
+}
+
+#CTAContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CTA {
+    width: 60%;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.CTAText {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+.CTATitle {
+    font-family: 'Roboto-Bold', 'Times New Roman', Times, serif;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.CTADescription {
+    font-family: 'Roboto-Light-Italic', 'Times New Roman', Times, serif;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.signUpBtn2 {
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    border-radius: 4px;
+    width: 140px;
+    height: 36px;
+    color: #F9FAF8;
+    font-family: 'Roboto-Bold', 'Times New Roman', Times, serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signUpBtn2:hover {
+    background-color: #5693f6;
 }
